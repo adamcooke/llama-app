@@ -1,0 +1,11 @@
+app_name: llamaapp
+pid_root: tmp/pids
+log_path: log/procodile.log
+
+env:
+  # Insert environment variables here if you need any (or put them in Procfile.local)
+  # See https://github.com/adamcooke/procodile/wiki/Configuration for details.
+
+processes:
+  web:
+    restart_mode: usr2
