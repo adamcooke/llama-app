@@ -22,7 +22,6 @@ gem 'kaminari'
 gem 'dynamic_form'
 gem 'clockwork'
 gem 'changey'
-gem 'sentry-raven'
 gem 'jobster'
 
 # gem 'florrick'
@@ -44,4 +43,5 @@ end
 group :production do
   gem 'rails_serve_static_assets'
   gem 'rails_stdout_logging'
+  gem 'sentry-raven'
 end
