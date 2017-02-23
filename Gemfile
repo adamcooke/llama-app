@@ -23,6 +23,7 @@ gem 'dynamic_form'
 gem 'clockwork'
 gem 'changey'
 gem 'sentry-raven'
+gem 'jobster'
 
 # gem 'florrick'
 # gem 'moonrope'
