@@ -3,3 +3,17 @@
 @import 'components/*';
 @import 'elements/*';
 @import "global/utility";
+
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size:16px;
+}
+
+body {
+  overflow-y:scroll;
+}
+
+.turbolinks-progress-bar {
+  background-color:$blue;
+  height:5px;
+}

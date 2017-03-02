@@ -1,0 +1,16 @@
+.buttonSet {
+  display:flex;
+  .button + .button {
+    margin-left:10px;
+  }
+}
+
+.buttonSet__right {
+  margin-left:auto;
+}
+
+.buttonSet__postDocument {
+  border-top:2px solid #efefef;
+  margin-top:40px;
+  padding-top:20px;
+}

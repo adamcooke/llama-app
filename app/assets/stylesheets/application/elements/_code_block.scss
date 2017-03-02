@@ -1,0 +1,13 @@
+.codeBlock {
+  background:#eee;
+  border-radius:4px;
+  font-family: 'Source Code Pro', fixed;
+  font-size:90%;
+  line-height:1.35;
+  padding:16px;
+}
+
+.codeBlock--ws {
+  white-space:pre;
+  overflow-x:auto;
+}

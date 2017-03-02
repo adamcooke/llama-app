@@ -1,0 +1,41 @@
+.input {
+  width:100%;
+  border:1px solid #dddddd;
+  border-radius:0px;
+  font-family:inherit;
+  box-shadow: inset 2px 2px 1px rgba(0,0,0,0.05);
+  padding:8px 11px;
+  background:#fafafa;
+  border-radius:4px;
+  resize:none;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  -ms-appearance: none;
+  &:focus {
+    background-color:#fff;
+    border-color:#888;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  }
+  &:disabled {
+    color:#a0a0c1;
+    cursor:not-allowed;
+  }
+}
+
+.input--select {
+  background-image:image-url('select-arrow.svg');
+  background-position:right 12px top 50%;
+  background-size:16px 16px;
+  background-repeat:no-repeat;
+  cursor: pointer;
+  padding:8px 28px 8px 8px;
+}
+
+.input--textArea {
+  height:200px;
+}
+
+.input--code {
+  font-family:'Source Code Pro', fixed;
+  font-size:90%;
+}

@@ -1,0 +1,20 @@
+.pills {
+  display:flex;
+  margin-bottom:20px;
+  font-size:14px;
+}
+
+.pills__item + .pills__item {
+  margin-left:15px;
+}
+
+.pills__link {
+  display:block;
+  background:#efefef;
+  border-radius:60px;
+  padding:10px 25px;
+  &.is-active {
+    background:$brown;
+    color:#fff;
+  }
+}

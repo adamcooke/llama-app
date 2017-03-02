@@ -1,0 +1,24 @@
+nav.pagination {
+  font-size:14px;
+  margin-top:25px;
+  text-align: right;
+  span.page.current, a {
+    color:#999;
+    display:inline-block;
+    border:1px solid #ddd;
+    padding:4px 10px;
+    text-decoration:none;
+    border-radius:4px;
+    background:#fff;
+  }
+
+  a:hover {
+    background-color:lighten(#ccc, 20%);
+  }
+
+  span.page.current {
+    background:$blue;
+    color:#fff;
+    border-color:darken($blue, 20%);
+  }
+}

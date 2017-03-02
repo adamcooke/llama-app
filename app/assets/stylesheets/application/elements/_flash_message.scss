@@ -1,0 +1,16 @@
+.flashMessage {
+  background:$red;
+  color:#fff;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  font-size:14px;
+  font-weight:600;
+  text-align:center;
+  padding:15px 0;
+}
+
+.flashMessage--notice {
+  background:$green;
+}

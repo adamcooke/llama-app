@@ -1,0 +1,14 @@
+.errorExplanation {
+  background:$red;
+  color:#fff;
+  h2 { display:none; }
+  p { display:none; }
+  padding:20px;
+  border-radius:4px;
+  margin-bottom:25px;
+  line-height:1.5;
+  ul li {
+    margin-left:25px;
+    list-style:square;
+  }
+}

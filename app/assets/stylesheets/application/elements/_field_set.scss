@@ -1,0 +1,93 @@
+.fieldSet {
+
+}
+
+.fieldSet + .fieldSet,
+.fieldSetSubmit + .fieldSet {
+  border-top:2px solid #efefef;
+  padding-top:40px;
+  margin-top:40px;
+}
+
+.fieldSet__field + .fieldSet__field,
+.fieldSet__field + .fieldSet__row,
+.fieldSet__row + .fieldSet__row,
+.fieldSet__row + .fieldSet__field {
+  margin-top:20px;
+}
+
+.fieldSet__label {
+  margin-bottom:6px;
+  display:block;
+  font-weight:700;
+}
+
+.fieldSet__title {
+  font-weight:700;
+  margin-bottom:15px;
+  font-size:18px;
+}
+
+.fieldSet__introText {
+  line-height:1.5;
+  font-size:14px;
+  color:#999;
+  margin-top:-10px;
+  margin-bottom:15px;
+}
+
+.fieldSet__text {
+  font-size:14px;
+  color:#999;
+  margin-top:10px;
+  line-height:1.5;
+}
+
+.fieldSetSubmit {
+  border-top:2px solid #efefef;
+  padding-top:40px;
+  margin-top:40px;
+}
+
+.fieldSetSubmit--split {
+  padding-left:calc(40% + 50px);
+}
+
+.fieldSetSubmit--center {
+  text-align:center;
+}
+
+.fieldSet--split {
+  display:flex;
+  .fieldSet__introText {
+    margin-left:20%;
+  }
+}
+
+.fieldSet__splitLeft {
+  width:40%;
+  text-align:right;
+  margin-right:50px;
+}
+
+.fieldSet__splitRight {
+  flex: 1 0;
+  width:calc(60% - 50px);
+}
+
+.fieldSet--center {
+  width:60%;
+  margin:auto;
+}
+
+.fieldSet__row {
+  display:flex;
+  .fieldSet__field {
+    margin:auto;
+    width:100%;
+    margin-top:0;
+  }
+  .fieldSet__field + .fieldSet__field {
+    margin-left:30px;
+  }
+}

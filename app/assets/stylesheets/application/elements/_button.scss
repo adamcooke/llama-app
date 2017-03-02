@@ -1,0 +1,59 @@
+.button {
+  display:inline-block;
+  font:inherit;
+  vertical-align:baseline;
+  appearance:none;
+  background:#333;
+  color:#fff;
+  font-size:13px;
+  padding:7px 12px;
+  font-weight:600;
+  border:0 !important;
+  border-radius:5px;
+  &:active {
+    background:#111;
+  }
+
+  &.is-spinning {
+    color:transparent;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size:45px;
+    background-image:image-url('button-spinner.gif');
+  }
+}
+
+.button--large {
+  font-size:18px;
+  padding:10px 16px;
+  &.is-spinning {
+    background-size:75px;
+  }
+}
+
+.button--green {
+  background-color:$green;
+  &:active {
+    background-color:darken($green, 10%);
+  }
+  &.is-spinning {
+    background-image:image-url('button-spinner-green.gif');
+  }
+}
+
+.button--red {
+  background-color:$red;
+  &:active {
+    background-color:darken($red, 10%);
+  }
+  &.is-spinning {
+    background-image:image-url('button-spinner-red.gif');
+  }
+}
+
+.button--grey {
+  background-color:#ccc;
+  &:active {
+    background-color:darken(#ccc, 10%);
+  }
+}
