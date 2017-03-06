@@ -11,5 +11,5 @@ env:
 processes:
   web:
     restart_mode: usr2
-  worker
+  worker:
     restart_mode: start-term
