@@ -18,3 +18,5 @@
 
 # Ignore Procfile.local
 Procfile.local
+
+/config/database.yml
