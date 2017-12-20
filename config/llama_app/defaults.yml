@@ -1,0 +1,37 @@
+general:
+  sentry_dsn: null
+
+web:
+  host: localhost:3000
+  protocol: http
+
+web_socket_server:
+  port: 3555
+  bind_address: 0.0.0.0
+  url: ws://127.0.0.1:3001
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password:
+  database: llama_app
+  pool_size: 5
+  encoding: utf8mb4
+
+rabbitmq:
+  host: 127.0.0.1
+  port: 5672
+  username: guest
+  password: guest
+  vhost: null
+
+outgoing_email:
+  smtp_host: smtp.example.com
+  smtp_username: example
+  smtp_password: example
+  from_tag: "The LlamaApp Team <team@example.com>"
+
+rails:
+  environment: development
+  secret_key_base: a3d06bb2498a3c9853df25a579520c314d1ff8668f2a828a2fef84e294aba98c37ceef2b335fed5c7d3e1795dbfcdce78f1ba36e91ffa3461ac58b1ed6aca20f

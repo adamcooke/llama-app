@@ -1,12 +1,7 @@
-app_name: llamaapp
+app_name: llama_app
 pid_root: tmp/pids
 log_path: log/procodile.log
 console_command: bundle exec rails console
-
-env:
-  # Insert environment variables here if you need any (or put them in Procfile.local)
-  # See https://github.com/adamcooke/procodile/wiki/Configuration for details.
-  RAILS_ENV: development
 
 processes:
   web:

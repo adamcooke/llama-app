@@ -11,7 +11,7 @@ This is a skeleton application for a completely clean Rails application using th
 ## Getting Started
 
 1. Get the skelton
-2. Replace references to `LlamaApp` and `llamaapp` with the name of your application.
+2. Replace all references to `LlamaApp` & `llama_app` with the name of your application (including any directory names - see `lib/llama_app` and `config/llama_app`)
 3. Start it up `procodile start --dev`
 
 What follows is some example README that can be included in your app.
@@ -22,7 +22,7 @@ What follows is some example README that can be included in your app.
 
 You can write a description here if you want
 
-## Getting started
+## Getting started
 
 1. Clone the application
 2. `bundle`
