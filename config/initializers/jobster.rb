@@ -1,5 +1,6 @@
 Jobster.configure do |c|
   c.exchange_name = 'llama_app-jobs'
+  c.bunny = LlamaApp::RabbitMQ.new_bunny
 
   c.worker_error_handler do |exception, job|
     if defined?(Raven)
