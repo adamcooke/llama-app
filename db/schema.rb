@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170606124439) do
+ActiveRecord::Schema.define(version: 20180320173944) do
 
   create_table "authie_sessions", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
     t.string "token"
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20170606124439) do
     t.integer "requests", default: 0
     t.datetime "password_seen_at"
     t.string "token_hash"
+    t.string "host"
     t.index ["browser_id"], name: "index_authie_sessions_on_browser_id", length: { browser_id: 10 }
     t.index ["token"], name: "index_authie_sessions_on_token", length: { token: 10 }
     t.index ["token_hash"], name: "index_authie_sessions_on_token_hash", length: { token_hash: 10 }
