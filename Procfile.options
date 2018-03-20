@@ -5,6 +5,6 @@ console_command: bundle exec rails console
 
 processes:
   web:
-    restart_mode: usr2
+    restart_mode: usr1
   worker:
     restart_mode: start-term
