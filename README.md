@@ -6,7 +6,7 @@ This is a skeleton application for a completely clean Rails application using th
 * HAML / Coffee / SASS
 * [Procodile](https://github.com/adamcooke/procodile) - for process management
 * [Authie](https://github.com/adamcooke/authie) - for handling user sessions
-* [Clockwork]() - for cron tasks
+* [Clockwork](https://github.com/Rykian/clockwork) - for cron tasks
 
 ## Getting Started
 
